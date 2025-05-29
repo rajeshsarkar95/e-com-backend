@@ -42,7 +42,7 @@ const dummyProducts = [
     name: 'Sporty Analog Watch',
     price: 89.99,
     description: 'Stylish analog watch with a durable strap and sleek design.',
-    image: 'https://fakestoreapi.com/img/71r69Y7BSeL._AC_UL640_QL65_ML3_.jpg',
+    image: 'https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg',
   },
 ];
 
