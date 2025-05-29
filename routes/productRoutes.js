@@ -23,7 +23,29 @@ const dummyProducts = [
     description: 'Description for Product Three',
     image: 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg',
   },
+  {
+    _id: '4',
+    name: 'Elegant Leather Bag',
+    price: 59.99,
+    description: 'Premium-quality leather handbag perfect for any occasion.',
+    image: 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg',
+  },
+  {
+    _id: '5',
+    name: 'Casual Cotton Shirt',
+    price: 24.99,
+    description: 'Breathable cotton shirt ideal for summer wear.',
+    image: 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg',
+  },
+  {
+    _id: '6',
+    name: 'Sporty Analog Watch',
+    price: 89.99,
+    description: 'Stylish analog watch with a durable strap and sleek design.',
+    image: 'https://fakestoreapi.com/img/71r69Y7BSeL._AC_UL640_QL65_ML3_.jpg',
+  },
 ];
+
 router.get('/products', (req, res) => {
   res.json(dummyProducts);
 });
